@@ -91,7 +91,7 @@ cd ..
 # create directory for catch2-template
 mkdir catch2-template && cd catch2-template
 # clone catch2-template
-cmake clone https://github.com/pr0g/Catch2-template.git .
+git clone https://github.com/pr0g/Catch2-template.git .
 # configure catch2-template, specifying search path for installed library
 # note: can use $(pwd) trick to use pseudo relative paths :)
 cmake -S . -B build/ -DCMAKE_PREFIX_PATH=$(pwd)/../catch2-install/
