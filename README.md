@@ -20,8 +20,7 @@ git clone https://github.com/catchorg/Catch2.git .
 ```bash
 # default install location
 cmake -S . -B build/ -DBUILD_TESTING=OFF
-# or
-# custom install location
+# or custom install location
 cmake -S . -B build/ -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=<relative/path/to/install>
 cmake --build build/ --target install
 ```
@@ -38,8 +37,7 @@ git clone https://github.com/pr0g/Catch2-template.git .
 ```bash
 # if Catch2 is installed to default location
 cmake -S . -B build/
-# or
-# if Catch2 is installed to custom location
+# or if Catch2 is installed to custom location
 cmake -S . -B build/ -DCMAKE_PREFIX_PATH=<absolute/path/to/install>
 cmake --build build/
 ```
